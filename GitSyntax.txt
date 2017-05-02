@@ -1,4 +1,8 @@
 ﻿CÚ PHÁP THAO TÁC GIT
+
+Clone 1 project từ GitHub về máy
+thao tác như sau:
+git clone <đường link địa chỉ của project >
 _____________
 Sau khi sửa đổi làm các thao tác sau:
 git status (xem trạng thái)
