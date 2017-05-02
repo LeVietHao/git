@@ -1,0 +1,7 @@
+﻿CÚ PHÁP THAO TÁC GIT
+Sau khi sửa đổi làm các thao tác sau:
+git status (xem trạng thái)
+git add <tên file>  (hoặc git add * để add toàn bộ các file)
+git add status (để xem lại add thành công chưa)
+git commit -m"viết comment vào đây"
+git push (để đẩy lên github)
