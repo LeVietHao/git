@@ -1,7 +1,23 @@
 ﻿CÚ PHÁP THAO TÁC GIT
+_____________
 Sau khi sửa đổi làm các thao tác sau:
 git status (xem trạng thái)
 git add <tên file>  (hoặc git add * để add toàn bộ các file)
 git status (để xem lại add thành công chưa)
 git commit -m"viết comment vào đây"
 git push (để đẩy lên github)
+
+_____________
+
+
+Backup repository, đồng bộ từ GitHub xuống local
+thao tác như sau:
+git log (để xem id của các lần commit trước đó)
+copy id của lần commit mà muốn quay lại
+git revert <id vừa copy> (để quay lại thời điểm trước lần commit đó)
+ấn ESC
+ấn shift + :
+ấn q
+ấn enter
+xong
+git status (để xem lại nếu working tree clean là thành công) 
