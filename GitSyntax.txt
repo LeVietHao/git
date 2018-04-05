@@ -76,3 +76,8 @@ Thêm tag cho các commit cũ:
   git push --tags
 Nhập tag vào branch:
   git checkout -b <branch_name> <tag_name>
+______________REMOTE_________________
+Thiết lập lại url cho remote:
+  git remote set-url <remote_name> <url>
+Xoá remote:
+  git remote remove <remote_name>
