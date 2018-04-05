@@ -48,3 +48,11 @@ Create a new repository on command line:
   git commit -m "first commit"
   git remote add origin https://github.com/leviethao/git.git
   git push -u origin master
+
+________________________
+Chuyển tập tin từ Tracked về Untracked:
+  rm <file_name>
+Xóa hẳn tập tin trên ổ đĩa:
+  git rm -f <file_name>
+Bỏ tập tin ra khỏi Staging Area:
+  git reset HEAD <file_name>
