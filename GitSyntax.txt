@@ -11,7 +11,7 @@ git status (để xem lại add thành công chưa)
 git commit -m"viết comment vào đây"
 git push (để đẩy lên github)
 
-_____________
+______BACKUP_______
 
 
 Backup repository (quay trở lại những lần commit trước)
@@ -26,13 +26,13 @@ git revert <id vừa copy> (để quay lại thời điểm trước lần commi
 xong
 git status (để xem lại nếu working tree clean là thành công) 
 git push 
-______________
+________SYNC______
 
 Đồng bộ từ GitHub xuống local (trường hợp người khác thay đổi file của chúng ta, lúc đó chúng ta cần đồng bộ hóa file của mình và đồng nghiệp)
 thao tác như sau:
 git pull (để cập nhật giữa local và GitHub)
 
-___________________________
+____________BRANCH_______________
 Tạo branch: git branch <branch_name>
 Checkout 1 branch: git checkout <branch_name>
 Gộp dữ liệu từ branch develop vào trong branch master:
@@ -40,7 +40,7 @@ Gộp dữ liệu từ branch develop vào trong branch master:
   git merge develop
 Xóa branch: git branch -d <branch_name>
 
-___________________________
+____________CREATE REPOSITORY_______________
 Create a new repository on command line:
   echo "# ittc_firstGame" >> README.md
   git init
@@ -49,7 +49,7 @@ Create a new repository on command line:
   git remote add origin https://github.com/leviethao/git.git
   git push -u origin master
 
-________________________
+____________TAGGING AREA____________
 Chuyển tập tin từ Tracked về Untracked:
   rm <file_name>
 Xóa hẳn tập tin trên ổ đĩa:
@@ -57,7 +57,7 @@ Xóa hẳn tập tin trên ổ đĩa:
 Bỏ tập tin ra khỏi Staging Area:
   git reset HEAD <file_name>
 
-_____________________________
+_____________TAG________________
 Cách tạo ligthweight tag:
   git tag <tag_name>
 Xem các tag hiện có trong project:
@@ -72,4 +72,5 @@ Thêm tag cho các commit cũ:
   git tag -a <tag_name> <checksum_segment> -m <"comment">
 Đẩy toàn bộ tag lên repository:
   git push --tags
-  
+Nhập tag vào branch:
+  git checkout -b <branch_name> <tag_name>
