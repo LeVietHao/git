@@ -31,3 +31,11 @@ ______________
 Đồng bộ từ GitHub xuống local (trường hợp người khác thay đổi file của chúng ta, lúc đó chúng ta cần đồng bộ hóa file của mình và đồng nghiệp)
 thao tác như sau:
 git pull (để cập nhật giữa local và GitHub)
+
+___________________________
+Tạo branch: git branch <branch_name>
+Checkout 1 branch: git checkout <branch_name>
+Gộp dữ liệu từ branch develop vào trong branch master:
+  git checkout master
+  git merge develop
+Xóa branch: git branch -d <branch_name>
