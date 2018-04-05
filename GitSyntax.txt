@@ -56,3 +56,13 @@ Xóa hẳn tập tin trên ổ đĩa:
   git rm -f <file_name>
 Bỏ tập tin ra khỏi Staging Area:
   git reset HEAD <file_name>
+
+_____________________________
+Cách tạo ligthweight tag:
+  git tag <tag_name>
+Xem các tag hiện có trong project:
+  git tag
+Xem thông tin lần commit đã được gắn tag:
+  git show <tag_name>
+Cách tạo Annotated Tag:
+  git tag -a v1.0 -m "Ra mat phien ban 1.0"
