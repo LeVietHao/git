@@ -65,4 +65,11 @@ Xem các tag hiện có trong project:
 Xem thông tin lần commit đã được gắn tag:
   git show <tag_name>
 Cách tạo Annotated Tag:
-  git tag -a v1.0 -m "Ra mat phien ban 1.0"
+  git tag -a <tag_name> -m <"comment">
+Xem mã checksum của các lần commit trước đó:
+  git log --pretty=oneline
+Thêm tag cho các commit cũ:
+  git tag -a <tag_name> <checksum_segment> -m <"comment">
+Đẩy toàn bộ tag lên repository:
+  git push --tags
+  
