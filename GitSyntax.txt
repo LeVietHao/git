@@ -41,6 +41,8 @@ Gộp dữ liệu từ branch develop vào trong branch master:
   git checkout master
   git merge develop
 Xóa branch: git branch -d <branch_name>
+Xem tất cả branch bị ẩn:
+  git branch -a
 
 ____________CREATE REPOSITORY_______________
 Create a new repository on command line:
