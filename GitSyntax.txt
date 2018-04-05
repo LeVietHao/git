@@ -39,3 +39,12 @@ Gộp dữ liệu từ branch develop vào trong branch master:
   git checkout master
   git merge develop
 Xóa branch: git branch -d <branch_name>
+
+___________________________
+Create a new repository on command line:
+  echo "# ittc_firstGame" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git remote add origin https://github.com/leviethao/git.git
+  git push -u origin master
