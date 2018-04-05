@@ -25,7 +25,8 @@ git revert <id vừa copy> (để quay lại thời điểm trước lần commi
 ấn enter
 xong
 git status (để xem lại nếu working tree clean là thành công) 
-git push 
+git push
+git push <repository_name> <branch_name>
 ________SYNC______
 
 Đồng bộ từ GitHub xuống local (trường hợp người khác thay đổi file của chúng ta, lúc đó chúng ta cần đồng bộ hóa file của mình và đồng nghiệp)
