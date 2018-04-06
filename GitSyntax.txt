@@ -30,6 +30,14 @@ xong
 git status (để xem lại nếu working tree clean là thành công) 
 git push
 git push <repository_name> <branch_name>
+
+
+Nhảy HEAD về vị trí trước khi commit sai bằng git reset như sau
+  git reset --hard HEAD~
+Muốn quay về trước 5 commit:
+  git reset --hard HEAD~5
+Trường hợp muốn revert lại phiên bản cụ thể, dựa vào commit id
+  git reset --hard <commitid>
 ________SYNC______
 
 Đồng bộ từ GitHub xuống local (trường hợp người khác thay đổi file của chúng ta, lúc đó chúng ta cần đồng bộ hóa file của mình và đồng nghiệp)
@@ -100,7 +108,3 @@ Cách 2:
     - Nếu thư mục có thay đổi và chưa pull branch thì phải pull branch rồi mới có thể push lên branch đó được 
    
 ________________________
-Nhảy HEAD về vị trí trước khi commit sai bằng git reset như sau
-  git reset --hard HEAD~
-Muốn quay về trước 5 commit:
-  git reset --hard HEAD~5
