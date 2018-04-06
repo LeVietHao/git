@@ -87,11 +87,15 @@ Thiết lập lại url cho remote:
 Xoá remote:
   git remote remove <remote_name>
 _______________CÁCH LẤY SOURCE TỪ REMOTE SERVER VỀ LOCAL ĐỂ CHỈNH SỬA______________
--Tạo folder mới, trỏ command line đến folder vừa tạo
-- git init
-- git remote add <remote_repo> <link_to_git_source>
-- git pull <remote_repo> <branch_name>
-*Chú ý: 
-  - Khi checkout tới branch nào thì thư mục sẽ thay đổi với các file tương ứng
-  - Có thể pull nhiều branch vào dùng thư mục (mỗi branch sau khi pull vẫn sẽ không liên quan đến nhau)
-  - Nếu thư mục có thay đổi và chưa pull branch thì phải pull branch rồi mới có thể push lên branch đó được 
+Cách 1:
+  -git clone <repo_link>
+Cách 2:
+  -Tạo folder mới, trỏ command line đến folder vừa tạo
+  - git init
+  - git remote add <remote_repo> <link_to_git_source>
+  - git pull <remote_repo> <branch_name>
+  *Chú ý: 
+    - Khi checkout tới branch nào thì thư mục sẽ thay đổi với các file tương ứng
+    - Có thể pull nhiều branch vào cùng thư mục (mỗi branch sau khi pull vẫn sẽ không liên quan đến nhau)
+    - Nếu thư mục có thay đổi và chưa pull branch thì phải pull branch rồi mới có thể push lên branch đó được 
+   
