@@ -99,3 +99,8 @@ Cách 2:
     - Có thể pull nhiều branch vào cùng thư mục (mỗi branch sau khi pull vẫn sẽ không liên quan đến nhau)
     - Nếu thư mục có thay đổi và chưa pull branch thì phải pull branch rồi mới có thể push lên branch đó được 
    
+________________________
+Nhảy HEAD về vị trí trước khi commit sai bằng git reset như sau
+  git reset --hard HEAD~
+Muốn quay về trước 5 commit:
+  git reset --hard HEAD~5
