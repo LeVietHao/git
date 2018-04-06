@@ -1,8 +1,11 @@
 ﻿CÚ PHÁP THAO TÁC GIT
 
-Clone 1 project từ GitHub về máy
-thao tác như sau:
-git clone <đường link địa chỉ của project >
+Clone 1 project
+  git clone <đường link địa chỉ của project >
+Clone một branch chỉ định:
+  git init
+  git remote add <remote_repo> <link_git>
+  git clone -b <branch> <remote_repo>
 _____________
 Sau khi sửa đổi làm các thao tác sau:
 git status (xem trạng thái)
