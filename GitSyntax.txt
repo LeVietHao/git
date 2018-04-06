@@ -38,6 +38,7 @@ Muốn quay về trước 5 commit:
   git reset --hard HEAD~5
 Trường hợp muốn revert lại phiên bản cụ thể, dựa vào commit id
   git reset --hard <commitid>
+  git push <reponame> -f
 ________SYNC______
 
 Đồng bộ từ GitHub xuống local (trường hợp người khác thay đổi file của chúng ta, lúc đó chúng ta cần đồng bộ hóa file của mình và đồng nghiệp)
